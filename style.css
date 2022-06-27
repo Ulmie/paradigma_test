@@ -948,6 +948,13 @@ body {
 
 @media(max-width: 626px) {
 
+    .alert {
+        top: 16%;
+        width: 280px;
+        margin: 20px auto;
+        padding: 16px;
+    }
+
     .popup-wrapper {
         width: 280px;
     }
