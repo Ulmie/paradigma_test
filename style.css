@@ -762,6 +762,56 @@ body {
         padding: 0 20px;
         margin: 0 auto;
     }
+
+    .intro-title {
+    font-size: 29px;
+    line-height: 60px;
+    }
+
+    .intro-subtitle {
+        font-size: 24px;
+        line-height: 20px;
+    }
+
+    .intro-btn {
+        width: 276px;
+        height: 60px;
+        justify-content: space-around;
+    }
+
+    .intro-btn--green {
+        margin-bottom: 12px;
+        margin-right: 0;
+    }
+
+    .intro-btn--green p {
+        width: 152px;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .intro-btn--orange p {
+        width: 128px;
+    }
+
+    .intro-btn p {
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .intro-text {
+        width: 19.2vw;
+        font-size: 13px;
+    }
+
+    .intro-inner {
+        display: flex;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
 }
 @media(max-width: 992px) {
 
@@ -875,12 +925,20 @@ body {
     .header-logo {
         margin-top: -17px;
     }
+
+    .point {
+        left: -6px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .intro-icon {
+        margin-bottom: 10px;
+        width: 17px;
+    }
 }
 
-@media(max-width: 626px) {
-    .bullets {
-        display: none;
-    }
+@media(max-width: 768px) {
 
     .intro-inner {
         justify-content: center;
@@ -888,7 +946,74 @@ body {
     
 }
 
-@media(max-width: 320px) {
+@media(max-width: 626px) {
+
+    .popup-wrapper {
+        width: 280px;
+    }
+
+    .popup-content {
+        width: 85%;
+        margin: 70px auto 0;
+        padding: 60px 0 60px;
+    }
+
+    .popup-title {
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    .popup-subtitle {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 17px;
+        margin-bottom: 20px;
+    }
+
+    .popup-worktime {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 10px;
+        color: #000000;
+        opacity: 0.75;
+        margin-bottom: 25px;
+    }
+
+    .popup-input {
+        height: 60px;
+        /* width: 250px; */
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 0.02em;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 50px rgb(0 0 0 / 5%);
+        border: none;
+        border-radius: 50px;
+        padding: 24px 60px 24px 35px;
+        margin-bottom: 15px;
+    }
+
+    .intro-btn {
+        width: 238px;
+        height: 60px;
+        justify-content: space-around;
+    }
+
+    .form-number--check {
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 19px;
+    }
+
+    .checkbox+label {
+        align-items: flex-start;
+    }
+
+    .checkbox+label::before {
+        width: 15px;
+        height: 15px;
+    }
 
     .container {
         width: 100%;
@@ -907,12 +1032,6 @@ body {
         display: flex;
         flex-direction: column;
         margin: 0;
-    }
-
-    .intro-btn {
-        width: 276px;
-        height: 60px;
-        justify-content: space-around;
     }
 
     .intro-btn--green {
